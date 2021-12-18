@@ -10,7 +10,7 @@
     "turbo": "^1.0.18"
   },
   "turbo": {
-    "baseBranch": "origin/master",
+    "baseBranch": "origin/main",
     "pipeline": {
       "build": {
         "dependsOn": [
@@ -31,10 +31,14 @@
       },
       "dev": {
         "cache": false
+      },
+      "clean": {
+        "cache": false
       }
     }
   },
   "scripts": {
-    "build": "yarn turbo run build"
+    "build": "yarn turbo run build",
+    "clean": "yarn turbo run clean && rm -rf node_modules"
   }
 }
