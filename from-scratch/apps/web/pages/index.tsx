@@ -1,9 +1,13 @@
+import { subtr, sum } from '@root/shared-ui'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+  console.log(sum(4, 5))
+
+  console.log(subtr(4,1))
   return (
     <div className={styles.container}>
       <Head>

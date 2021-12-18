@@ -39,6 +39,7 @@
   },
   "scripts": {
     "build": "yarn turbo run build",
-    "clean": "yarn turbo run clean && rm -rf node_modules"
+    "clean": "yarn turbo run clean && rm -rf node_modules",
+    "dev": "yarn turbo run dev --no-cache --parallel --continue"
   }
 }

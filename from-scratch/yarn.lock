@@ -1897,6 +1897,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@root/shared-ui@workspace:packages/shared-ui":
+  version: 0.0.0-use.local
+  resolution: "@root/shared-ui@workspace:packages/shared-ui"
+  dependencies:
+    "@size-limit/preset-small-lib": ^7.0.4
+    rollup-plugin-postcss: ^4.0.2
+    size-limit: ^7.0.4
+    tsdx: ^0.14.1
+    tslib: ^2.3.1
+    typescript: ^4.5.4
+  languageName: unknown
+  linkType: soft
+
 "@root/web@workspace:apps/web":
   version: 0.0.0-use.local
   resolution: "@root/web@workspace:apps/web"
@@ -10393,19 +10406,6 @@ __metadata:
   checksum: ebd3f59d4b799000699097dadb831c8e3da3eb579144fd7eb7a19484cbcbb7aca3c68ba2bb362242eb09e33217de3b4ea56e4678184c334323eca24a58e3ad07
   languageName: node
   linkType: hard
-
-"shared-ui@workspace:packages/shared-ui":
-  version: 0.0.0-use.local
-  resolution: "shared-ui@workspace:packages/shared-ui"
-  dependencies:
-    "@size-limit/preset-small-lib": ^7.0.4
-    rollup-plugin-postcss: ^4.0.2
-    size-limit: ^7.0.4
-    tsdx: ^0.14.1
-    tslib: ^2.3.1
-    typescript: ^4.5.4
-  languageName: unknown
-  linkType: soft
 
 "shebang-command@npm:^1.2.0":
   version: 1.2.0
